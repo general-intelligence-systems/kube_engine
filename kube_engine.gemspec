@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/kube_engine/version"
+require_relative "lib/kube/engine/version"
 
 Gem::Specification.new do |spec|
   spec.name = "kube_engine"
-  spec.version = KubeEngine::VERSION
+  spec.version = Kube::Engine::VERSION
   spec.authors = ["Nathan K"]
   spec.email = ["nathankidd@hey.com"]
 

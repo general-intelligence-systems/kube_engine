@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/kube_engine/version"
+require_relative "lib/kube/engine/version"
 
 Gem::Specification.new do |spec|
   spec.name = "<%= gem_name %>"
-  spec.version = KubeEngine::VERSION
+  spec.version = Kube::Engine::VERSION
   spec.authors = [<%= authors.map { |a| %("#{a}") }.join(", ") %>]
   spec.email = [<%= emails.map { |e| %("#{e}") }.join(", ") %>]
 
