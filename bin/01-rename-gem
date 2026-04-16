@@ -102,3 +102,6 @@ if File.exist?(script_path)
 end
 
 puts "\nRenamed #{old_snake} -> #{snake} (#{old_camel} -> #{camel})"
+
+puts "Removing git remote origin... add your own."
+`git remote remove origin`
