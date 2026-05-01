@@ -1,5 +1,7 @@
 # kube_engine
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/general-intelligence-systems/kube_engine)
+
 Rails Engine to manage Kubernetes on Kubernetes (kube-ception).
 
 ## Usage
